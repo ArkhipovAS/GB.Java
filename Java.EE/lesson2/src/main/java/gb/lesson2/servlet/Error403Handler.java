@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "error404handler", urlPatterns = "/error404")
+@WebServlet(name = "error403handler", urlPatterns = "/error403")
 
-public class Error404Handler extends HttpServlet {
+public class Error403Handler extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -19,7 +19,7 @@ public class Error404Handler extends HttpServlet {
         resp.getWriter().print("<title>Ошибка!</title>");
         resp.getWriter().print("</head>");
         resp.getWriter().print("<body>");
-        resp.getWriter().print("<h1>Ошибка 404. Страница не найдена!</h1>");
+        resp.getWriter().print("<h2>Ошибка 403. Доступ запрещен!</h2>");
         resp.getWriter().print("</body>");
         resp.getWriter().print("</html>");
     }

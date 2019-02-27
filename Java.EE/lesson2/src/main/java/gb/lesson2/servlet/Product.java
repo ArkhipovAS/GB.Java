@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Product extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html; charset=UTF-8");
+        resp.getWriter().print("<head><title>Продукт</title></head>");
         resp.getWriter().print("<h1>Product page servlet</h1>");
         resp.getWriter().print("<table>");
         resp.getWriter().print("<tr>");

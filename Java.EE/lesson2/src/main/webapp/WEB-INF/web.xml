@@ -18,23 +18,23 @@
 
   <servlet>
     <servlet-name>Main</servlet-name>
-    <servlet-class>gb.lesson2.servlet.Main</servlet-class>
+    <servlet-class>gb.lesson2.servlet.MainServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Catalog</servlet-name>
-    <servlet-class>gb.lesson2.servlet.Catalog</servlet-class>
+    <servlet-class>gb.lesson2.servlet.CatalogServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Product</servlet-name>
-    <servlet-class>gb.lesson2.servlet.Product</servlet-class>
+    <servlet-class>gb.lesson2.servlet.ProductServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Cart</servlet-name>
-    <servlet-class>gb.lesson2.servlet.Cart</servlet-class>
+    <servlet-class>gb.lesson2.servlet.CartServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Order</servlet-name>
-    <servlet-class>gb.lesson2.servlet.Order</servlet-class>
+    <servlet-class>gb.lesson2.servlet.OrderServlet</servlet-class>
   </servlet>
 
 
